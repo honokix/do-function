@@ -17,7 +17,7 @@ spec:
     envs:
     - key: FUNCTION_API_URL
       scope: BUILD_TIME
-      value: ${qrcode.PUBLIC_URL}
+      value: !include https://ref.aa21.pitr.be
     git:
       branch: main
       repo_clone_url: https://github.com/digitalocean/sample-functions-nodejs-qrcode
