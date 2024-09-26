@@ -5,7 +5,7 @@ spec:
   functions:
   - git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-functions-nodejs-qrcode
+      repo_clone_url: https://github.aa21.pitr.be/digitalocean/sample-functions-nodejs-qrcode
     name: qrcode
     routes:
     - path: /api
@@ -20,7 +20,7 @@ spec:
       value: !include https://ref.aa21.pitr.be
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-functions-nodejs-qrcode
+      repo_clone_url: https://github.aa21.pitr.be/digitalocean/sample-functions-nodejs-qrcode
     name: qrcode-ui
     output_dir: dist
     routes:
